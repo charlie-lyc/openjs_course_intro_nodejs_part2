@@ -1,0 +1,21 @@
+{
+  "name": "introduction_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.mjs",
+    "static": "serve -p 5050 static",
+    "dev": "cd mock-srv && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/websocket": "^8.2.0",
+    "fastify": "^4.23.2",
+    "fastify-cli": "^5.8.0",
+    "serve": "^14.2.1"
+  }
+}
